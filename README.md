@@ -9,7 +9,7 @@ Acceso a los datos:
 En este github se presentan los siguientes archivos:
   * Archivos de entrada para todo el código:
       * ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
-          * Debido a que el archivo pesaba más de 25 MB no fue posible subirlo por lo que se puede descargar desde la terminal con:                 curl -O            https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
+          * Debido a que el archivo pesaba más de 25 MB no fue posible subirlo por lo que se puede descargar desde la terminal con:                 curl -O https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
       * ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi (indice)
       * integrated_call_samples_v3.20130502.ALL.panel.txt (panel muestras por población)
   * Archivos de trabajo:
@@ -17,4 +17,14 @@ En este github se presentan los siguientes archivos:
       *  E1_manejo_datos_y_estadísticas.sh (Archivo ejecutable desde la terminal con bash que hace el análisis de datos inicial, extrae SNPs, construye los alelos y genotipos, determina las frecuencias genotípicas relativas y absolutas y las estadísticas poblacionales por superpoblación, consolidando todo en una tabla)
       *  E2_chi_cuadrado_global_pareado_clusteringjerarquico_mapa_pie.R (Archivo ejecutable desde la terminal con el comando Rscript donde se realizan las pruebas chi cuadrado global y pareada, se extraen residuales estandarizados, se realizan heatmaps y se realiza el clsutering jerarquizado)
   *Archivos comentados auxilares, particularmente para el archivo manejo_datos_y_estadísticas se comparte una versión complementaria comentada en su totalidad y denominada G1_manejo_datos_y_estadísticas.sh debido a que la versión E1_manejo_datos_y_estadísticas.sh tiene sus comentarios recortados para maximizar el flujo de ejecución y eivtar errores debido a la acción de comentar con "#" entre lineas.
-    
+
+
+#Pipeline
+*Se debe ejecutar secuencialmente:
+  1. Crear desde la terminal una carpeta llamada Alzheimer y ubicarse en ella (mkdir Alzheimer).
+  2. Descargar todos los archivos y guardarlos en esa carpeta (se puede usar curl o usar el gestor de archivos y luego volver a la      terminal).
+  3. Ejecutar en la terminal curl -O https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
+  5. Ejecutar en la terminal bash E0_iniciando_el_proyecto.sh
+  6. Ejecutar en la terminal bash E1_manejo_datos_y_estadísticas.sh
+  7. Ejecutar en la terminal Rscript E2_chi_cuadrado_global_pareado_clusteringjerarquico_mapa_pie.R
+  8. Listo, replicaste los resultados!
