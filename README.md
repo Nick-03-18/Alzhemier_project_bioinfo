@@ -16,7 +16,7 @@ En este github se presentan los siguientes archivos:
       * E0_iniciando_el_proyecto.sh (Archivo ejecutable con bash que crea el ambiente de trabajo y descarga todos los paquetes y librerias necesaria (R))
       *  E1_manejo_datos_y_estadísticas.sh (Archivo ejecutable desde la terminal con bash que hace el análisis de datos inicial, extrae SNPs, construye los alelos y genotipos, determina las frecuencias genotípicas relativas y absolutas y las estadísticas poblacionales por superpoblación, consolidando todo en una tabla)
       *  E2_chi_cuadrado_global_pareado_clusteringjerarquico_mapa_pie.R (Archivo ejecutable desde la terminal con el comando Rscript donde se realizan las pruebas chi cuadrado global y pareada, se extraen residuales estandarizados, se realizan heatmaps y se realiza el clsutering jerarquizado)
-  *Archivos comentados auxilares, particularmente para el archivo manejo_datos_y_estadísticas se comparte una versión complementaria comentada en su totalidad y denominada G1_manejo_datos_y_estadísticas.sh debido a que la versión E1_manejo_datos_y_estadísticas.sh tiene sus comentarios recortados para maximizar el flujo de ejecución y eivtar errores debido a la acción de comentar con "#" entre lineas.
+  *Archivos comentados auxilares, particularmente para el archivo manejo_datos_y_estadísticas se comparte una versión complementaria comentada en su totalidad y denominada G1_manejo_datos_y_estadísticas.sh debido a que la versión E1_manejo_datos_y_estadísticas.sh tiene sus comentarios recortados para maximizar el flujo de ejecución y evitar errores debido a la acción de comentar con "#" entre lineas.
 
 
 #Pipeline
