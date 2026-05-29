@@ -9,6 +9,7 @@ Acceso a los datos:
 En este github se presentan los siguientes archivos:
   * Archivos de entrada para todo el código:
       * ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
+          * Debido a que el archivo pesaba más de 25 MB no fue posible subirlo por lo que se puede descargar desde la terminal con:                 curl -O            https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz
       * ALL.chr19.phase3_shapeit2_mvncall_integrated_v5b.20130502.genotypes.vcf.gz.tbi (indice)
       * integrated_call_samples_v3.20130502.ALL.panel.txt (panel muestras por población)
   * Archivos de trabajo:
