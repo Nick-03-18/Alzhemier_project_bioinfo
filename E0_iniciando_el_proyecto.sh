@@ -17,8 +17,10 @@ conda config --set channel_priority strict
 
 # Instalar paquetes y librerias de todo el proyecto
 conda install bcftools vcftools htslib  plink wget
-conda install -c conda-forge r-base
-conda install -c conda-forge r-data.table
-conda install -c conda-forge r-ggplot2 r-reshape2 r-pheatmap r-rcolorbrewer r-viridis
-conda install -c conda-forge r-sf r-rnaturalearth r-rnaturalearthdata r-scatterpie
-conda install -c conda-forge r-ggnewscale
+conda install -c conda-forge r-base r-data.table r-ggplot2 r-reshape2 r-pheatmap r-rcolorbrewer r-viridis r-sf r-rnaturalearth r-rnaturalearthdata r-scatterpie r-ggnewscale
+
+#conda install -c conda-forge r-base
+#conda install -c conda-forge r-data.table
+#conda install -c conda-forge r-ggplot2 r-reshape2 r-pheatmap r-rcolorbrewer r-viridis
+#conda install -c conda-forge r-sf r-rnaturalearth r-rnaturalearthdata r-scatterpie
+#conda install -c conda-forge r-ggnewscale
