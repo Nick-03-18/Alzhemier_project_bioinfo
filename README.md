@@ -1,5 +1,5 @@
-# Alzhemier_project_bioinfo
-**Análisis preliminar de estructura poblacional y frecuencia genotípica del gen APOE en el mundo**
+# Alzhemier project bioinfo
+**Enfermedad de Alzheimer de Origen Tardío (LOAD): Análisis preliminar de estructura poblacional y frecuencia genotípica del gen APOE en el mundo**
 **Autores:J. Nicolas avila M. & Sofia Lombana F.**
 
 ## Abstract
